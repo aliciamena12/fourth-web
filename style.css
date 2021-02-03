@@ -8,6 +8,8 @@ header {
     justify-content: space-around;
 
 }
+
+/* Primera pagina*/
 #hero-front {
     width: 600px;
     padding-left: 150px;
@@ -25,12 +27,10 @@ h2 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
 button {
     height: 50px;
     width: 220px;
     border-radius: 60px !important;
-
 }
 .box {
     background-color: #ffffff;
@@ -60,6 +60,21 @@ button {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+/* Segunda pagina*/
+.page2 {
+    background-color: #ffffff;
+    color: #281c31;
+}
+
+.page2 h2 {
+    color: #281c31;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
 
 footer {
     background-color: #333333;
