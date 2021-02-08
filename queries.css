@@ -31,6 +31,9 @@
     .layout_7-img {
         background-position: 86.21% 50%;
     }
+    .layout_8-container {
+        padding: 0px 28px;
+    }
 }
 
 
@@ -50,6 +53,11 @@
         width: 720px;
     }
 
+    .layout_1-container-all {
+        display: flex;
+    }
+    
+
     .layout_7-container {
         display: flex;
     }
@@ -60,7 +68,15 @@
     .layout_7-container > * {
         min-width: unset;
     }
+    .layout_8-container {
+        display: flex;
+        float: right;
+        padding: 0px 38px;
+    }
 
+    .layout_9-container {
+        padding: 0px 30px;
+    }
 }
 
 
@@ -98,4 +114,19 @@
     .layout_7-container > * {
         min-width: unset;
     }
+    .layout_8-container {
+        padding: 0px 49px;
+        display: flex;
+        float: right;
+    }
+    .layout_8-button {
+        padding: 0px 49px;
+        display: flex;
+        float: right;
+        box-sizing: content-box;
+    }
+    .layout_9-container {
+        padding: 0px 88px 0px 112px;
+    }
+
 }
